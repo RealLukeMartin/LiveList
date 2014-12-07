@@ -24,11 +24,11 @@
                             echo '<td>'. $row['email'] . '</td>';
                             echo '<td>'. $row['mobile'] . '</td>';
                             echo '<td width=250>';
-                              echo '<a class="btn btn-primary" href="read.php?id='.$row['id'].'">Read</a>';
+                              echo '<a class="btn btn-primary" href="read.php?id='.$row['id'].'">View</a>';
                               echo ' ';
-                              echo '<a class="btn btn-success" href="update.php?id='.$row['id'].'">Update</a>';
+                              echo '<a class="btn btn-success" href="update.php?id='.$row['id'].'">Edit</a>';
                               echo ' ';
-                              echo '<a class="btn btn-danger" href="delete.php?id='.$row['id'].'">Delete</a>';
+                              echo '<a class="btn btn-danger" href="delete.php?id='.$row['id'].'">Remove</a>';
                             echo '</td>';
                             echo '</tr>';
                    }
