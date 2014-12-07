@@ -1,11 +1,9 @@
 <?php include_once 'includes/header.php'; ?>
             <div class="row">
-                <h3>LiveGrid</h3>
+                <h3>LiveList</h3>
             </div>
               <div class="row">
-                <p>
-                    <a href="create.php" class="btn btn-success">Create</a>
-                </p>
+
                 <table class="table table-striped table-bordered">
                   <thead>
                     <tr>
@@ -38,6 +36,10 @@
                   ?>
                   </tbody>
             </table>
+                  <p>
+                    <a href="create.php" class="btn btn-success add-new">Add New Customer</a>
+                    <div class="clear"></div>
+                  </p>
         </div>
     </div> <!-- /container -->
   </body>
