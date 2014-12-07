@@ -13,49 +13,56 @@ a.btn {
 /* line 16, ../sass/_bootswatch.scss */
 a.btn.btn-primary {
   margin-left: 0;
+  padding: 7px 13px;
+  margin-left: 2px;
 }
 
-/* line 31, ../sass/_bootswatch.scss */
+/* line 22, ../sass/_bootswatch.scss */
+.btn-primary, button.btn.btn-danger {
+  padding: 7px 13px;
+}
+
+/* line 37, ../sass/_bootswatch.scss */
 .text-primary,
 .text-primary:hover {
   color: #2c3e50;
 }
 
-/* line 36, ../sass/_bootswatch.scss */
+/* line 42, ../sass/_bootswatch.scss */
 .text-success,
 .text-success:hover {
   color: #18bc9c;
 }
 
-/* line 41, ../sass/_bootswatch.scss */
+/* line 47, ../sass/_bootswatch.scss */
 .text-danger,
 .text-danger:hover {
   color: #e74c3c;
 }
 
-/* line 46, ../sass/_bootswatch.scss */
+/* line 52, ../sass/_bootswatch.scss */
 .text-warning,
 .text-warning:hover {
   color: #f39c12;
 }
 
-/* line 51, ../sass/_bootswatch.scss */
+/* line 57, ../sass/_bootswatch.scss */
 .text-info,
 .text-info:hover {
   color: #3498db;
 }
 
-/* line 60, ../sass/_bootswatch.scss */
+/* line 66, ../sass/_bootswatch.scss */
 table a:not(.btn),
 .table a:not(.btn) {
   text-decoration: underline;
 }
-/* line 64, ../sass/_bootswatch.scss */
+/* line 70, ../sass/_bootswatch.scss */
 table .dropdown-menu a,
 .table .dropdown-menu a {
   text-decoration: none;
 }
-/* line 71, ../sass/_bootswatch.scss */
+/* line 77, ../sass/_bootswatch.scss */
 table .success,
 table .warning,
 table .danger,
@@ -66,7 +73,7 @@ table .info,
 .table .info {
   color: #fff;
 }
-/* line 74, ../sass/_bootswatch.scss */
+/* line 80, ../sass/_bootswatch.scss */
 table .success a,
 table .warning a,
 table .danger a,
@@ -77,7 +84,7 @@ table .info a,
 .table .info a {
   color: #fff;
 }
-/* line 84, ../sass/_bootswatch.scss */
+/* line 90, ../sass/_bootswatch.scss */
 table > thead > tr > th,
 table > tbody > tr > th,
 table > tfoot > tr > th,
@@ -93,19 +100,19 @@ table > tfoot > tr > td,
   border: none;
 }
 
-/* line 101, ../sass/_bootswatch.scss */
+/* line 107, ../sass/_bootswatch.scss */
 .form-control,
 input {
   border-width: 2px;
   background-color: rgba(0, 0, 0, 0.1);
 }
-/* line 105, ../sass/_bootswatch.scss */
+/* line 111, ../sass/_bootswatch.scss */
 .form-control:focus,
 input:focus {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* line 117, ../sass/_bootswatch.scss */
+/* line 123, ../sass/_bootswatch.scss */
 .has-warning .help-block,
 .has-warning .control-label,
 .has-warning .radio,
@@ -115,17 +122,17 @@ input:focus {
 .has-warning .form-control-feedback {
   color: #f39c12;
 }
-/* line 122, ../sass/_bootswatch.scss */
+/* line 128, ../sass/_bootswatch.scss */
 .has-warning .form-control,
 .has-warning .form-control:focus {
   border: 2px solid #f39c12;
 }
-/* line 126, ../sass/_bootswatch.scss */
+/* line 132, ../sass/_bootswatch.scss */
 .has-warning .input-group-addon {
   border-color: #f39c12;
 }
 
-/* line 138, ../sass/_bootswatch.scss */
+/* line 144, ../sass/_bootswatch.scss */
 .has-error .help-block,
 .has-error .control-label,
 .has-error .radio,
@@ -135,17 +142,17 @@ input:focus {
 .has-error .form-control-feedback {
   color: #e74c3c;
 }
-/* line 143, ../sass/_bootswatch.scss */
+/* line 149, ../sass/_bootswatch.scss */
 .has-error .form-control,
 .has-error .form-control:focus {
   border: 2px solid #e74c3c;
 }
-/* line 147, ../sass/_bootswatch.scss */
+/* line 153, ../sass/_bootswatch.scss */
 .has-error .input-group-addon {
   border-color: #e74c3c;
 }
 
-/* line 159, ../sass/_bootswatch.scss */
+/* line 165, ../sass/_bootswatch.scss */
 .has-success .help-block,
 .has-success .control-label,
 .has-success .radio,
@@ -155,107 +162,107 @@ input:focus {
 .has-success .form-control-feedback {
   color: #18bc9c;
 }
-/* line 164, ../sass/_bootswatch.scss */
+/* line 170, ../sass/_bootswatch.scss */
 .has-success .form-control,
 .has-success .form-control:focus {
   border: 2px solid #18bc9c;
 }
-/* line 168, ../sass/_bootswatch.scss */
+/* line 174, ../sass/_bootswatch.scss */
 .has-success .input-group-addon {
   border-color: #18bc9c;
 }
 
-/* line 178, ../sass/_bootswatch.scss */
+/* line 184, ../sass/_bootswatch.scss */
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
   border-color: transparent;
 }
 
-/* line 185, ../sass/_bootswatch.scss */
+/* line 191, ../sass/_bootswatch.scss */
 .pager a,
 .pager a:hover {
   color: #fff;
 }
-/* line 193, ../sass/_bootswatch.scss */
+/* line 199, ../sass/_bootswatch.scss */
 .pager .disabled > a, .pager .disabled > a:hover, .pager .disabled > a:focus, .pager .disabled > span {
   background-color: #3be6c4;
 }
 
-/* line 201, ../sass/_bootswatch.scss */
+/* line 207, ../sass/_bootswatch.scss */
 .close {
   color: #fff;
   text-decoration: none;
   opacity: 0.4;
 }
-/* line 207, ../sass/_bootswatch.scss */
+/* line 213, ../sass/_bootswatch.scss */
 .close:hover, .close:focus {
   color: #fff;
   opacity: 1;
 }
 
-/* line 215, ../sass/_bootswatch.scss */
+/* line 221, ../sass/_bootswatch.scss */
 .alert .alert-link {
   color: #fff;
   text-decoration: underline;
 }
 
-/* line 223, ../sass/_bootswatch.scss */
+/* line 229, ../sass/_bootswatch.scss */
 .progress {
   height: 10px;
   background-color: rgba(0, 0, 0, 0.1);
 }
-/* line 226, ../sass/_bootswatch.scss */
+/* line 232, ../sass/_bootswatch.scss */
 .progress .progress-bar {
   font-size: 10px;
   line-height: 10px;
 }
 
-/* line 234, ../sass/_bootswatch.scss */
+/* line 240, ../sass/_bootswatch.scss */
 .well {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* line 242, ../sass/_bootswatch.scss */
+/* line 248, ../sass/_bootswatch.scss */
 a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
   border-color: #ecf0f1;
 }
-/* line 247, ../sass/_bootswatch.scss */
+/* line 253, ../sass/_bootswatch.scss */
 a.list-group-item.list-group-item-success.active {
   background-color: #18bc9c;
 }
-/* line 252, ../sass/_bootswatch.scss */
+/* line 258, ../sass/_bootswatch.scss */
 a.list-group-item.list-group-item-success.active:hover, a.list-group-item.list-group-item-success.active:focus {
   background-color: #15a589;
 }
-/* line 258, ../sass/_bootswatch.scss */
+/* line 264, ../sass/_bootswatch.scss */
 a.list-group-item.list-group-item-warning.active {
   background-color: #f39c12;
 }
-/* line 263, ../sass/_bootswatch.scss */
+/* line 269, ../sass/_bootswatch.scss */
 a.list-group-item.list-group-item-warning.active:hover, a.list-group-item.list-group-item-warning.active:focus {
   background-color: #e08e0b;
 }
-/* line 269, ../sass/_bootswatch.scss */
+/* line 275, ../sass/_bootswatch.scss */
 a.list-group-item.list-group-item-danger.active {
   background-color: #e74c3c;
 }
-/* line 274, ../sass/_bootswatch.scss */
+/* line 280, ../sass/_bootswatch.scss */
 a.list-group-item.list-group-item-danger.active:hover, a.list-group-item.list-group-item-danger.active:focus {
   background-color: #e43725;
 }
 
-/* line 282, ../sass/_bootswatch.scss */
+/* line 288, ../sass/_bootswatch.scss */
 .panel.panel-default .close {
   color: #2c3e50;
 }
 
-/* line 289, ../sass/_bootswatch.scss */
+/* line 295, ../sass/_bootswatch.scss */
 .modal .close {
   color: #2c3e50;
 }
 
-/* line 294, ../sass/_bootswatch.scss */
+/* line 300, ../sass/_bootswatch.scss */
 .popover {
   color: #2c3e50;
 }
@@ -271,6 +278,11 @@ body {
 }
 
 /* line 12, ../sass/style.scss */
+button.btn {
+  padding: 7px 13px;
+}
+
+/* line 15, ../sass/style.scss */
 .clear {
   clear: both;
 }
