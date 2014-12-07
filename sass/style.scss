@@ -4,6 +4,16 @@
 body {
 	font-family: $raleway;
 }
+
+
+
+
+
+
+//Bootstrap Overrides
+.form-actions {
+	margin-top: 16px;
+}
 .btn {
 	&.add-new {
 		float: right;
