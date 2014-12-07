@@ -15,8 +15,14 @@ a.btn {
   margin-left: 2px;
   &.btn-primary {
     margin-left: 0;
+    padding: 7px 13px;
+    margin-left: 2px;
   }
 }
+.btn-primary, button.btn.btn-danger {
+  padding: 7px 13px;
+}
+
 .btn:active {
   //rgba(0,0,0,0.1);
 }
