@@ -272,17 +272,22 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-/* line 8, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
+.form-actions {
+  margin-top: 16px;
+}
+
+/* line 18, ../sass/style.scss */
 .btn.add-new {
   float: right;
 }
 
-/* line 12, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 button.btn {
   padding: 7px 13px;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 25, ../sass/style.scss */
 .clear {
   clear: both;
 }
