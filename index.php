@@ -1,6 +1,7 @@
+<?php $page_title = 'LiveList - Customer Data Manager' ?>
 <?php include_once 'includes/header.php'; ?>
             <div class="row">
-                <h3>LiveList</h3>
+                <h3 class="logo">LiveList</h3>
             </div>
               <div class="row">
 
