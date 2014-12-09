@@ -3,13 +3,28 @@
 
 body {
 	font-family: $raleway;
+	background: url(../assets/rain-drops-blurred.jpg);
+	background-size: cover;
+}
+label, label.control-label {
+	color: #fff;
+	text-shadow: 1px 1px 0 #000;
+}
+input {
+	&[type='text'] {
+		background: rgba(255,255,255,0.9);
+	}
 }
 
 
-
-
-
-
+table {
+	background: rgba(255,255,255,0.9);
+}
+.logo {
+	font-weight: 700;
+	color: #fff;
+	text-shadow: 1px 1px 0 #000;
+}
 //Bootstrap Overrides
 .form-actions {
 	margin-top: 16px;
