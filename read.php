@@ -18,21 +18,14 @@
     }
 ?>
  
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://bootswatch.com/flatly/bootstrap.css">
-    <link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
-</head>
- 
-<body>
-    <div class="container">
+<?php 
+  $page_title = 'View Customer';
+  include_once 'includes/header.php'; 
+?>
      
                 <div class="span10 offset1">
                     <div class="row">
-                        <h3>Read a Customer</h3>
+                        <h3 class="logo">View a Customer</h3>
                     </div>
                      
                     <div class="form-horizontal" >
