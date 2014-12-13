@@ -1,7 +1,10 @@
 <?php $page_title = 'LiveList - Customer Data Manager' ?>
 <?php include_once 'includes/header.php'; ?>
             <div class="row">
+                <a class='btn btn-primary' href='login.php'>Login</a>
+                <a class='btn btn-danger' href='register.php'>Register</a>
                 <h3 class="logo">LiveList</h3>
+
             </div>
               <div class="row">
 
@@ -42,6 +45,4 @@
                     <div class="clear"></div>
                   </p>
         </div>
-    </div> <!-- /container -->
-  </body>
-</html>
+<?php include_once 'includes/footer.php' ?>

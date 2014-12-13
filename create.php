@@ -91,6 +91,4 @@
                     </form>
                 </div>
                  
-    </div> <!-- /container -->
-  </body>
-</html>
+<?php include_once 'includes/footer.php' ?>
