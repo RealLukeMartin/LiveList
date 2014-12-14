@@ -22,16 +22,7 @@
     }
 ?>
  
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="http://bootswatch.com/flatly/bootstrap.css">
-    <link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
-</head>
- 
-<body>
-    <div class="container">
+<?php include_once 'includes/header.php' ?>
      
                 <div class="span10 offset1">
                     <div class="row">
