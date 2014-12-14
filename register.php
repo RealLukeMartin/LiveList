@@ -51,7 +51,7 @@
             <?php if (!empty($usernameError)): ?>
                 <span class="help-inline"><?php echo $usernameError;?></span>
             <?php endif; ?>
-        	<input name="password" type="text"  
+        	<input name="password" type="password"  
         		   placeholder="Password" 
         		   value="<?php echo !empty($password)?$password:'';?>"
             />
