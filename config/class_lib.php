@@ -5,7 +5,8 @@
 <div class="test-container">
 	<?php
 		class User {
-			
+			public username;
+			private password;
 		}
 	?>
 </div>
