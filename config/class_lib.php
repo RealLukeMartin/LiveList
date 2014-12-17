@@ -7,6 +7,7 @@
 		class User {
 			public username;
 			private password;
+			private counter;
 		}
 	?>
 </div>
